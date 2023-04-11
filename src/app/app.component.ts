@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ChildAndParentComponents';
+  Name="Pardeep Kumar";
+
+  ChangeData(){
+    this.Name="Nikhil Patial"
+  }
+  fruits=["Apple","Banana","Mango","Orage"];
+  Obj={
+    Name:"Pardeep Kumar",
+    Age:"20",
+    Email:"pardeepkumar63281@gmail.com"
+  }
+  public message="";
 }
